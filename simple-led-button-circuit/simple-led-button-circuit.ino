@@ -17,6 +17,7 @@ if(i == 1){
   digitalWrite(2,HIGH);
   digitalWrite(3,LOW);
   digitalWrite(4,LOW);
+  digitalWrite(5,LOW);
 }
 
 if(i == 2){
@@ -39,10 +40,12 @@ else if(i == 4){
   digitalWrite(4,LOW);
   digitalWrite(5,HIGH);
 }
-if(i == 5)
+
+if(i == 5){
   i = 1;
   digitalWrite(2,LOW);
   digitalWrite(3,LOW);
   digitalWrite(4,LOW);
   digitalWrite(5,LOW);
+}
 }
